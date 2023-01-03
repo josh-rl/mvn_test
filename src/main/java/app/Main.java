@@ -1,19 +1,22 @@
 package app;
 
-import java.io.IOException;
-
 /**
- * Simple math arithmetic app.
+ * Simple math app.
  * @author Joshua Lawrinenko
  */
 public class Main 
 {
+	/**
+	 * Scanner object
+	 */
 	public static java.util.Scanner in = new java.util.Scanner(System.in);
+	
 	/**
 	 * Performs MathNum operations.
 	 * @param args cmd line args
+	 * @throws java.io.IOException from Scanner
 	 */
-	public static void main( String[] args ) throws IOException {
+	public static void main( String[] args ) throws java.io.IOException {
 		int a, b, c;
 		
 		System.out.print("Enter 2 numbers and a desired precision: ");
